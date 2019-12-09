@@ -1,22 +1,46 @@
-/* @font-face {
+@font-face {
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Quantico:700');
+
 body {
   font-family: neon;
   margin: 0 auto;
-  /* background-color: #858585;
+  background-color: #000;
 }
 
-h1 {
-  padding: 0% 0%;
-   color: black;
+.neon-title {
+  padding: 4% 0%;
+   color: #ff8400;
+   /* font-size: 9vw; */
    text-align: center;
+   text-shadow: 0 0 3vw #ff8400;
 }
 
-h3 {
+.neon-jokes {
+  font-family: sans-serif;
+  color: #426DFB;
   padding: 2%;
+  text-align: center;
   font-weight: normal;
+  /* font-size: 4vw; */
+   text-shadow: 0 0 3vw #2356FF;
 
-} */
+}
+.btn-box {
+  text-align: center;
+}
+.neon-submit {
+  color: white;
+  font-size: 400px;
+border: 1px solid #ff8400;
+border-radius: 50px;
+text-align: center;
+/* margin: 0% 50%; */
+
+/* padding: 40px; */
+background-color: #000;
+
+}
