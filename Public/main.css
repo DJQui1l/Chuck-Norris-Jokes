@@ -23,6 +23,15 @@
     filter: drop-shadow(0px 3px 25px rgb(255, 132, 0, 0.7));
   }
 }
+
+@keyframes pulse2{
+  0% {
+    filter: drop-shadow(0px 3px 25px rgb(66,109,251,0.0));
+  }
+  100%{
+    filter: drop-shadow(0px 3px 25px rgb(66,109,251,0.7));
+  }
+}
 @keyframes hover{
   0% {
   transform: translateY(4px);
@@ -62,7 +71,7 @@ font-family: clip_font;
   font-weight: normal;
   font-size: 3vw;
    text-shadow: 0px 0px 5px #2356FF;
-   animation: pulse 2s alternate infinite ease-in-out,
+   animation: pulse2 2s alternate infinite ease-in-out,
      hover 5s alternate infinite ease-in-out;
    animation-delay: 0.5s;
 

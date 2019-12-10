@@ -2,10 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
-    chucknorris (0.0.2)
+    chuck_norris (0.1.0)
+    coderay (1.1.2)
     json (1.8.6)
+    method_source (0.9.2)
     mime-types (1.25.1)
     mustermann (1.0.3)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     rack (2.0.7)
     rack-protection (2.0.7)
       rack
@@ -26,7 +31,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  chucknorris!
+  chuck_norris!
+  pry!
   sinatra (~> 2.0, >= 2.0.7)!
   unirest!
 
