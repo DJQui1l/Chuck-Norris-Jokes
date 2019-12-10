@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 @font-face {
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
+@font-face {
+  font-family: clip_font;
+  src: url(Clip.ttf);
+}
+@font-face {
+  font-family: Hello Denver;
+  src: url(HELLODENVERDISPLAYREGULAR_v1.6.ttf);
+}
 
-@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Quantico:700');
+
+
+@keyframes pulse{
+  0% {
+    filter: drop-shadow(0px 3px 25px rgb(255, 132, 0, 0.0));
+  }
+  100%{
+    filter: drop-shadow(0px 3px 25px rgb(255, 132, 0, 0.7));
+  }
+}
+@keyframes hover{
+  0% {
+  transform: translateY(4px);
+  }
+  100%{
+    transform: translateY(-25px);
+
+
+  }
+}
 
 body {
   font-family: neon;
@@ -14,33 +43,55 @@ body {
 .neon-title {
   padding: 4% 0%;
    color: #ff8400;
-   /* font-size: 9vw; */
+   font-size: 8vw;
    text-align: center;
    text-shadow: 0 0 3vw #ff8400;
+
+   animation: pulse 2s alternate infinite ease-in-out,
+              hover 5s alternate infinite ease-in-out;
+  animation-delay: 0s;
+
 }
 
 .neon-jokes {
-  font-family: sans-serif;
+font-family: clip_font;
+
   color: #426DFB;
   padding: 2%;
   text-align: center;
   font-weight: normal;
-  /* font-size: 4vw; */
-   text-shadow: 0 0 3vw #2356FF;
+  font-size: 3vw;
+   text-shadow: 0px 0px 5px #2356FF;
+   animation: pulse 2s alternate infinite ease-in-out,
+     hover 5s alternate infinite ease-in-out;
+   animation-delay: 0.5s;
 
 }
 .btn-box {
-  text-align: center;
-}
+  /* text-align: center;  */
+  padding: 0px 19%;
+
+  }
 .neon-submit {
-  color: white;
-  font-size: 400px;
-border: 1px solid #ff8400;
-border-radius: 50px;
-text-align: center;
-/* margin: 0% 50%; */
+  /* font-family: neon; */
+  font-family: clip_font;
+  position: absolute;
+  bottom: 6%;
+  left: auto;
+  right: 38%;
+  color:  #ff8400;
+  font-size: 220%;
+  border: 1px solid #ff8400;
+  border-radius: 73px;
+  /* text-align: center; */
+  width: 6em;
+  height: 2em;
+  /* margin: 0% -29%; */
+  /* padding: 40px; */
+  background-color: #000;
 
-/* padding: 40px; */
-background-color: #000;
-
+filter: drop-shadow(0px 3px 25px rgb(255, 132, 0, 0.7));
+animation: pulse 2s alternate infinite ease-in-out,
+  hover 5s alternate infinite ease-in-out;
+animation-delay: 1s;
 }

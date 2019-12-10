@@ -1,6 +1,7 @@
 source "https://rubygems.org" do
   gem 'sinatra', '~> 2.0', '>= 2.0.7'
   gem 'unirest'
-  gem 'chucknorris'
+  gem 'pry'
+  gem 'chuck_norris'
 
 end
