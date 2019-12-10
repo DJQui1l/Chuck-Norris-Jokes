@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: clip_font;
-  src: url(Clip.ttf);
+  src: url(fonts/Clip.ttf);
 }
 @font-face {
   font-family: Hello Denver;
-  src: url(HELLODENVERDISPLAYREGULAR_v1.6.ttf);
+  src: url(fonts/HELLODENVERDISPLAYREGULAR_v1.6.otf);
 }
 
 
